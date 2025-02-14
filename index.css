@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    
+}
+
+.head{
+    text-align: center;
+}
+
+.hello{
+    display: flex;
+    flex-direction: column;  /* Stack the images vertically */
+    justify-content: center; /* Vertical centering */
+    align-items: center;
+
+}
+.hello img {
+    border: 20px solid;
+    border-radius: 15px;
+    height: 450px;
+    width: 270px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 1.8s ease;
+    display: block; /* Make the image block-level for margin auto to work */
+}
+
+
+.hello img:hover {
+    transform: scale(1.05); /* Slightly enlarge the image */
+    border-color: #c3bfbe;  /* Change border color to a light tomato color */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+
+.container {
+    width: 80%;     /* Adjust the width as needed */
+    height: 80%;    /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;  /* Center the inner div horizontally */
+    align-items: center;
+
+
+}
+#sp {
+    font-size: 20px
+    ;
+    margin: 10px;
+}
+
+#lovee {
+   text-align: center;
+  }
+  
+  #lovee img {
+    height: 275px;
+    width: 275px;
+  }
+  
+  h2 {
+    text-align: center;
+     font-family: cursive;
+     margin: 20px;
+   }

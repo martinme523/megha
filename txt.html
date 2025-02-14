@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I am Sorry</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <audio id="backgroundMusic" autoplay loop>
+        <source src="audio/Theme from a summer place (Percy Faith version).mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+      </audio>
+      
+
+<h1 class="head">
+    Happy Valentines Day Mutu💕!!!
+</h1>
+
+
+
+
+<div id="envelop">
+
+    <div class="contain">  
+        <div class="valentines">
+          <div class="envelope"></div>
+          <div class="front"></div>
+          <div class="card">
+          <div class="text">Happy</br> Valentine's</br> Day!</div>
+          <div class="heart"</div>
+          </div>
+          <div class="hearts">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+          </div>
+        </div>
+        </div>
+        <div class="shadow"></div>
+        </div>
+
+
+   </div>
+
+
+<div class="sorry">
+    <P>
+
+    </P>
+</div>
+<div id="container
+">
+<div class="hello">
+    
+    <img src="images/IMG_20250214_074814_125.webp" class="1a" alt="1">
+    <img src="images/Screenshot_20250214_075550_Photos.jpg" class="2b"  alt="2">
+    <img src="images/Screenshot_20250214_075709_Photos.jpg" class="3c" alt="3">
+    <img src="images/Screenshot_20250214_082351_Gallery.jpg" class="4d" alt="4">
+    <img src="images/Screenshot_20250214_082442_Photos.jpg" class="5e" alt="5">
+    <img src="images/Screenshot_20250214_082511_Photos.jpg" class="6f" alt="6">
+    <img src="images/Screenshot_20250214_082535_Photos.jpg" class="7g" alt="7">
+    <img src="images/Screenshot_20250214_082550_Photos.jpg" class="8h" alt="8">
+    <img src="images/Screenshot_20250214_082614_Photos.jpg" class="9i" alt="9">
+    <img src="images/Screenshot_20250214_082639_Photos.jpg" class="0j" alt="0">
+    
+</div>
+</div>
+<p id="sp">
+    Sanu i am sorry mutu, you know that i love you soo much how could i not love you, i know i didnt wished you Valentines day cause i forget while we are arguing i am really sorry sanu i do wanted to do many things with you in this valentines day i wanted to come their be with you hug you go on a valentines date and have some happy time with you, i know i hurt you most of the time but you do also knw that i love you more sanu. i am sorry mutu. i love you🫂💕. ummmaaaaa sanu love you soo much.
+
+</p>
+<div>
+    <div id="lovee">
+      <img src="images/amore.gif" >
+    </div>
+      
+    
+    <h2> I Love You Mutu. ummaaaaa❤️❤️❤️ </h2>
+    
+    <h2 id="ss">Sanu suna nw mutu mero pyariii mero mutu
+        <br> Will You be my Valentine
+    </h2>
+
+
+    <div>
+
+
+        <div id="buttons">
+         
+            <button id="ok"  onclick="next()">
+               yes why not ofcourse 
+       </button>
+       <button id="no" onclick="angry ()">
+          fuck you
+       </button>
+       
+   </div>
+   
+   <script>
+       function next () {
+   window.location.href= "second.html"
+       }
+   
+       function angry () {
+           window.location.href= "third.html"
+       }
+   
+   </script>
+
+  
+
+
+</body>
+
+
+
+<style>
+#ss {
+    text-align: center;
+}
+
+#no{
+    background-color: rgb(189, 165, 211);
+       width: 90px;
+       height: 40px;
+       border-radius: 10px;
+       margin: 10px;
+   }
+   #ok{
+    background-color: rgb(189, 165, 211);
+       width: 90px;
+       height: 40px;
+       border-radius: 10px;
+       margin: 10px;
+   }
+   #buttons{
+
+       display: flex;
+       justify-content: center;
+       gap: 30px;
+    }
+
+* {
+    box-sizing: border-box;
+}
+
+/* Center the envelop container horizontally */
+#envelop {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
+    height: 70vh;           /* Take full viewport height */
+    width: 100%;             /* Full width */
+    padding: 10px;
+}
+
+.contain {
+  position: relative;
+}
+
+.valentines {
+  position: relative;
+  top: 50px;
+  cursor: pointer;
+  animation: up 3s linear infinite;
+}
+
+@keyframes up {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
+
+.envelope {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  background-color: #f08080;
+}
+
+.envelope:before {
+  background-color: #f08080;
+  content:"";
+  position: absolute;
+  width: 212px;
+  height: 212px;
+  transform: rotate(45deg);
+  top:-105px;
+  left:44px;
+  border-radius:30px 0 0 0;
+}
+
+.card {
+    position: absolute;
+    background-color: #eae2b7;
+    width: 270px;
+    height: 170px;
+    top: 1px;
+    left: 15px;
+    box-shadow: -5px -5px 100px rgba(0, 0, 0, 0.4);
+    transition: top 1s ease-in-out; /* Smooth transition */
+}
+
+.card:before {
+  content:"";
+  position: absolute;
+  border:3px solid #003049;
+  border-style: dotted;
+  width: 240px;
+  heighT: 140px;
+  left:12px;
+  top:12px;
+}
+
+.text {
+  position: absolute;
+  font-family: 'Brush Script MT', cursive;
+  font-size: 28px;
+  text-align: center;
+  line-height:25px;
+  top:19px;
+  left:85px;
+  color: #003049;
+}
+
+.heart {
+  background-color: #d62828;
+  display: inline-block;
+  height: 30px;
+  margin: 0 10px;
+  position: relative;
+  top: 110px;
+  left:105px;
+  transform: rotate(-45deg);
+  width: 30px;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  background-color: #d62828;
+  border-radius: 50%;
+  height: 30px;
+  position: absolute;
+  width: 30px;
+}
+
+.heart:before {
+  top: -15px;
+  left: 0;
+}
+
+.heart:after {
+  left: 15px;
+  top: 0;
+}
+
+.hearts {
+  position: absolute;
+}
+
+.one, .two, .three, .four, .five {
+  background-color: red;
+  display: inline-block;
+  height: 10px;
+  margin: 0 10px;
+  position: relative;
+  transform: rotate(-45deg);
+  width: 10px;
+  top:50px;
+}
+
+.one:before,
+.one:after, .two:before, .two:after, .three:before, .three:after, .four:before, .four:after, .five:before, .five:after {
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+}
+
+.one:before, .two:before, .three:before, .four:before, .five:before {
+  top: -5px;
+  left: 0;
+}
+
+.one:after, .two:after, .three:after, .four:after, .five:after {
+  left: 5px;
+  top: 0;
+}
+
+.one {
+  left:10px;
+  animation: heart 1s ease-out infinite; 
+}
+
+.two {
+  left:30px;
+  animation: heart 2s ease-out infinite; 
+}
+
+.three {
+  left:50px;
+  animation: heart 1.5s ease-out infinite;
+}
+
+.four {
+  left:70px;
+  animation: heart 2.3s ease-out infinite;
+}
+
+.five {
+  left:90px;
+  animation: heart 1.7s ease-out infinite;
+}
+
+@keyframes heart {
+  0%{
+    transform: translateY(0) rotate(-45deg) scale(0.3);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(-150px) rotate(-45deg) scale(1.3);
+    opacity: 0.5;
+  }
+}
+
+.front {
+  position: absolute;
+  border-right: 180px solid #f4978e;
+  border-top: 95px solid transparent;
+  border-bottom: 100px solid transparent;
+  left:120px;
+  top:5px;
+  width:0;
+  height:0;
+  z-index:10;
+}
+
+.front:before {
+  position: absolute;
+  content:"";
+  border-left: 300px solid #f8ad9d;
+  border-top: 195px solid transparent;
+  left:-120px;
+  top:-95px;
+  width:0;
+  height:0;
+}
+
+.shadow {
+  position: absolute;
+  width: 330px;
+  height: 25px;
+  border-radius:50%;
+  background-color: rgba(0,0,0,0.3);
+  top:265px;
+  left:-15px;
+  animation: scale 3s linear infinite;
+  z-index:-1;
+}
+
+@keyframes scale {
+  0%, 100% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(0.85);
+  }
+}
+
+
+
+</style>
+
+
+</html>
